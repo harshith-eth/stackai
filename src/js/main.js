@@ -61,7 +61,7 @@ function createTemplateCard(template, index) {
           href="${template.demoUrl}" 
           target="_blank" 
           rel="noopener noreferrer" 
-          class="flex-1 flex items-center justify-center py-1.5 bg-gray-50 hover:bg-gray-100 border border-gray-200 rounded text-sm font-medium text-gray-700 transition-colors"
+          class="flex-1 flex items-center justify-center py-2 bg-gray-800 hover:bg-gray-900 text-white rounded text-sm font-medium transition-all duration-200 shadow-sm hover:shadow-md hover:-translate-y-0.5"
         >
           View Demo
         </a>

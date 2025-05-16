@@ -40,12 +40,12 @@ export const templates = [
   },
   {
     id: 5,
-    title: "Product Recommendation Engine",
-    description: "An AI-powered recommendation system that suggests relevant products based on user preferences and behavior.",
-    image: "https://images.unsplash.com/photo-1571867424860-83834e7ddf18?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
-    tags: ["AI Agent", "E-commerce"],
-    demoUrl: "#demo-product-recommendation",
-    githubUrl: "https://github.com/yourusername/stackai-product-recommendation"
+    title: "Contract Analyzer Frontend UI",
+    description: "An AI-powered contract analysis tool that extracts key clauses and information from legal documents. Upload contracts to get instant insights and summaries.",
+    image: "/Contract-Analyzer.png",
+    tags: ["Legal Tech", "Document Analysis"],
+    demoUrl: "https://stackai-contract-analyzer.vercel.app/",
+    githubUrl: "https://github.com/harshith-eth/stackai-contract-analyzer"
   },
   {
     id: 6,
