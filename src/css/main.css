@@ -49,7 +49,7 @@
 @layer components {
   /* Card hover effects */
   .template-card {
-    @apply transition-all duration-300 hover:shadow-md hover:-translate-y-1;
+    @apply transition-all duration-300 border border-gray-200 hover:border-gray-300;
   }
   
   /* Button styles matching Stack AI's design */
@@ -94,12 +94,10 @@
 
 .template-card-image {
   transition: all 0.3s ease;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
 .template-card:hover .template-card-image {
   transform: scale(1.02);
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 
 /* Knowledge Tags like Stack AI */

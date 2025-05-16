@@ -42,7 +42,6 @@ function createTemplateCard(template, index) {
         alt="${template.title}" 
         class="template-card-image w-full h-full object-cover object-top transition-transform"
       >
-      <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-60"></div>
       <div class="absolute bottom-0 left-0 p-4 w-full">
         <div class="flex space-x-2">
           ${template.tags.map(tag => `
@@ -53,8 +52,8 @@ function createTemplateCard(template, index) {
     </div>
     <div class="p-6">
       <h3 class="text-xl font-bold text-gray-900 mb-2">${template.title}</h3>
-      <p class="text-gray-600 mb-4 line-clamp-2">${template.description}</p>
-      <div class="flex items-center justify-between mt-4">
+      <p class="text-gray-600 mb-4">${template.description}</p>
+      <div class="flex flex-wrap items-center gap-3 mt-4">
         <a 
           href="${template.demoUrl}" 
           target="_blank" 
@@ -66,6 +65,19 @@ function createTemplateCard(template, index) {
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
           </svg>
         </a>
+        ${template.originalTemplateUrl ? `
+        <a 
+          href="${template.originalTemplateUrl}" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          class="text-gray-900 hover:text-gray-600 font-medium text-sm flex items-center"
+        >
+          Cloned Template
+          <svg class="ml-1 h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+          </svg>
+        </a>
+        ` : ''}
         <a 
           href="${template.githubUrl}" 
           target="_blank" 

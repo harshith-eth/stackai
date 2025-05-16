@@ -2,12 +2,13 @@
 export const templates = [
   {
     id: 1,
-    title: "AI Customer Support Agent",
-    description: "An AI agent that handles customer inquiries and support requests with natural language understanding.",
-    image: "https://images.unsplash.com/photo-1596524430615-b46475ddff6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
-    tags: ["AI Agent", "Support"],
-    demoUrl: "#demo-customer-support",
-    githubUrl: "https://github.com/yourusername/stackai-customer-support"
+    title: "Document Comparison",
+    description: "This application allows users to upload and compare two documents, highlighting differences with varying importance levels for easy analysis.",
+    image: "/document-comparision.png",
+    tags: ["Document Comparison", "Analysis"],
+    demoUrl: "https://stackai-document-comparision.vercel.app/",
+    githubUrl: "https://github.com/harshith-eth/stackai-document-comparision",
+    originalTemplateUrl: "https://www.stack-ai.com/form/b5e5152a-3be2-4014-94a2-5a9652a63b95/6459d4c3-5a39-4712-8e10-b09589b8cb90/66b4029210613a1d8cf572f5"
   },
   {
     id: 2,
