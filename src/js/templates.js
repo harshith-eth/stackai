@@ -49,11 +49,11 @@ export const templates = [
   },
   {
     id: 6,
-    title: "Content Generation Workflow",
-    description: "Streamline content creation process with AI-powered content generation, editing, and optimization.",
-    image: "https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
-    tags: ["Workflow", "Content"],
-    demoUrl: "#demo-content-generation",
-    githubUrl: "https://github.com/yourusername/stackai-content-generation"
+    title: "Dashboard UI Design",
+    description: "Modern, responsive dashboard interface with interactive data visualization, customizable widgets, and real-time performance metrics for enterprise applications.",
+    image: "/dashboard-ui.png",
+    tags: ["Dashboard", "UI/UX", "Analytics"],
+    demoUrl: "https://stackai-dashboard-ui.vercel.app/",
+    githubUrl: "https://github.com/harshith-eth/stackai-dashboard-ui"
   }
 ];
