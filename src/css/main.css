@@ -1,0 +1,124 @@
+@import "@fontsource-variable/inter/index.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sans: "Inter Variable", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, 
+    "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", 
+    "Courier New", monospace;
+  --font-aspekta: "Aspekta", var(--font-sans);
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+  }
+
+  .font-aspekta {
+    font-family: var(--font-aspekta);
+    letter-spacing: -0.03em;
+  }
+
+  .font-mono {
+    font-family: var(--font-mono);
+  }
+
+  /* Override default focus styles */
+  :focus-visible {
+    @apply outline-none ring-2 ring-gray-700 ring-offset-2 ring-offset-white;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    @apply w-2 h-2;
+  }
+  
+  ::-webkit-scrollbar-track {
+    @apply bg-gray-100;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    @apply bg-gray-300 rounded-full hover:bg-gray-400;
+  }
+}
+
+@layer components {
+  /* Card hover effects */
+  .template-card {
+    @apply transition-all duration-300 hover:shadow-md hover:-translate-y-1;
+  }
+  
+  /* Button styles matching Stack AI's design */
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-6 py-3 border border-transparent 
+      text-base font-medium rounded-md text-white bg-gray-900 hover:bg-gray-800
+      transition-colors duration-200;
+  }
+  
+  .btn-secondary {
+    @apply inline-flex items-center justify-center px-6 py-3 border border-gray-300 
+      text-base font-medium rounded-md text-gray-900 bg-gray-50 hover:bg-gray-100
+      transition-colors duration-200;
+  }
+}
+
+/* Custom animations */
+.fade-in {
+  animation: fadeIn 0.5s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Styles for 3D elements inspired by Stack AI */
+.blob-3d {
+  filter: blur(40px);
+  opacity: 0.4;
+  background: radial-gradient(circle at center, rgba(75, 75, 75, 0.8), rgba(75, 75, 75, 0));
+  border-radius: 50%;
+  position: absolute;
+  z-index: -1;
+}
+
+.template-card-image {
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.template-card:hover .template-card-image {
+  transform: scale(1.02);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* Knowledge Tags like Stack AI */
+.knowledge-tag {
+  @apply inline-flex items-center px-2.5 py-0.5 rounded-md text-xs font-medium;
+}
+
+.knowledge-tag-blue {
+  @apply bg-gray-200 text-gray-800;
+}
+
+.knowledge-tag-yellow {
+  @apply bg-gray-200 text-gray-800;
+}
+
+.knowledge-tag-green {
+  @apply bg-gray-200 text-gray-800;
+}
+
+.knowledge-tag-purple {
+  @apply bg-gray-200 text-gray-800;
+}
