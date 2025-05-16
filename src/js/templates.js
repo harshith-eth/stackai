@@ -12,8 +12,8 @@ export const templates = [
   },
   {
     id: 2,
-    title: "Document Comparison",
-    description: "drag-and-drop workflow editor using ReactFlow that allows users to visually design data pipelines and workflows.",
+    title: "Workflow Pipeline UI",
+    description: "Drag-and-drop workflow editor using ReactFlow that allows users to visually design data pipelines and workflows like StackAI Interactive Project Application.",
     image: "/workflow-ui.png",
     tags: ["Workflow", "Automation"],
     demoUrl: "https://stackai-workflow-ui.vercel.app/",
