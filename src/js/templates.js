@@ -12,12 +12,13 @@ export const templates = [
   },
   {
     id: 2,
-    title: "Document Analysis Workflow",
-    description: "Automate document processing workflow with OCR and LLM-powered analysis and data extraction.",
-    image: "https://images.unsplash.com/photo-1568027762272-e4da8b8dcc28?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80",
+    title: "Document Comparison",
+    description: "drag-and-drop workflow editor using ReactFlow that allows users to visually design data pipelines and workflows.",
+    image: "/workflow-ui.png",
     tags: ["Workflow", "Automation"],
-    demoUrl: "#demo-document-analysis",
-    githubUrl: "https://github.com/yourusername/stackai-document-analysis"
+    demoUrl: "https://stackai-workflow-ui.vercel.app/",
+    githubUrl: "https://github.com/harshith-eth/stackai-workflow-ui",
+    originalTemplateUrl: "https://www.stack-ai.com/project/6826d1bdb4664585e89de725/workflow"
   },
   {
     id: 3,
