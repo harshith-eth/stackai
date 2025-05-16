@@ -22,12 +22,12 @@ export const templates = [
   },
   {
     id: 3,
-    title: "Knowledge Base Chatbot",
-    description: "A conversational chatbot that provides answers based on your company knowledge base and documentation.",
-    image: "https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
-    tags: ["Chatbot", "Knowledge"],
-    demoUrl: "#demo-knowledge-chatbot",
-    githubUrl: "https://github.com/yourusername/stackai-knowledge-chatbot"
+    title: "Chat with any website",
+    description: "Chat with Website is an innovative open-source application that allows users to have natural conversations with any website's content.",
+    image: "/chat-with-website.png",
+    tags: ["Chatbot", "Website"],
+    demoUrl: "https://chat-with-website-beta.vercel.app/",
+    githubUrl: "https://github.com/harshith-eth/chat-with-website"
   },
   {
     id: 4,
