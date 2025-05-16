@@ -31,12 +31,12 @@ export const templates = [
   },
   {
     id: 4,
-    title: "Email Classification Agent",
-    description: "Automatically classify, prioritize and route incoming emails to the right department using AI.",
-    image: "https://images.unsplash.com/photo-1526948128573-703ee1aeb6fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
-    tags: ["AI Agent", "Automation"],
-    demoUrl: "#demo-email-classification",
-    githubUrl: "https://github.com/yourusername/stackai-email-classification"
+    title: "Invoice Processing Agent",
+    description: "Automatically extract, classify, and process invoice data using AI. Streamline financial workflows with OCR and intelligent data extraction. This is a UI/frontend only implementation.",
+    image: "/invoice.png",
+    tags: ["AI Agent", "Finance"],
+    demoUrl: "https://stackai-invoice-processing.vercel.app/?agent=invoice-agent",
+    githubUrl: "https://github.com/harshith-eth/stackai-invoice-processing"
   },
   {
     id: 5,
